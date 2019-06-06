@@ -1,14 +1,15 @@
-let todoList = null;
-let todoForm = null;
-let todoSearch = null;
+document.getElementById("portButt").onclick = function () {
+    location.href = "https://github.com/r3lict";
+};
 
-function addTask(text) {
-    console.log('Dodaję zadanie do listy');
-}
+
+let todoList = 0;
+let todoForm = 0;
+
 document.addEventListener('DOMContentLoaded', function () {
     const todoList = document.querySelector('#todoList');
     const todoForm = document.querySelector('#todoForm');
-    const todoSearch = document.querySelector('#todoSearch');
+
 
     todoForm.addEventListener('submit', function (e) {
         e.preventDefault();
