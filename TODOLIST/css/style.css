@@ -155,7 +155,6 @@ h1 {
 
 .todo-element-delete svg {
     pointer-events: none;
-    /* nie chcemy obsługi kliknięć na elementy svg - bo takie dodaje użyty fontAwesome */
 }
 
 .todo-element-delete:hover {
