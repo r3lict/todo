@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    < <link rel="stylesheet" href="css/style.css">
+
+        <title>To Do List</title>
+</head>
+
+<body>
+    <section>
+        <div id="container">
+            <button class="portfolio" id="portButt">
+                <div class="circle">
+                    <span class="icon arrow"></span>
+                </div>
+                <p class="button-text">Portfolio</p>
+
+            </button>
+
+
+        </div>
+
+        <h1> Planer</h1>
+        <div class="pika"> <img src="img/pika.png" alt=""></div>
+        <div class="todo-cnt">
+            <form class="todo-form" id="todoForm">
+                <div class="todo-form-row">
+                    <label class="todo-form-label" for="todoMessage">Podaj treść zadania</label>
+                    <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+                </div>
+                <div class="todo-form-row">
+                    <button type="submit" class="button todo-form-button">Dodaj</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="todo-list-cnt">
+        <header class="todo-list-header">
+            <h2 class="todo-list-title">
+                Lista zadań
+            </h2>
+        </header>
+
+        <div class="todo-list" id="todoList">
+
+        </div>
+    </section>
+
+    <div class="thor"> <img src="img/thor.png" alt=""></div>
+
+</body>
+<script src="js/script.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+</html>
