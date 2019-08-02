@@ -9,7 +9,7 @@ https://r3lict.github.io/todo/.
 * [Contact](#ariegodlewski)
 
 ## General info
-TO DO List include 
+TO DO List includes:
 - Element on click "button"
 - addTask 
 - deleteTask
